@@ -1,0 +1,67 @@
+ body{
+            font-family: Rubik, sans-serif;
+            font-size: 16px;
+        }
+        h1{
+            font-family: Spectral, serif;
+            font-size: 48px;
+        }
+        h2{
+            font-family: Spectral, serif;
+            font-size: 32px;
+        }
+
+        img:hoover {
+            transform: scale(1.2, 1.2);
+        }
+
+         .btn-grad {
+            background-image: linear-gradient(to right, #00c6ff 0%, #0072ff  51%, #00c6ff  100%);
+            margin: 10px;
+            padding: 8px 16px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 3px #eee;
+            border-radius: 50px;
+          }
+
+          .btn-grad:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+          }
+
+          .image-container{
+             width: 400px;
+             height: auto;
+             border-radius: 50%;
+             overflow: hidden;
+             transition: 0.4s;
+          }
+
+          .image-container:hoover{
+            transform: scale(1.2)
+          }
+          .nav-glass-morph{
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.75);
+            }
+
+          .glass-morph{
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.75);
+            border-radius: 10px 10px 0 0;
+            height: 150px;
+            overflow: auto;
+            -webkit-line-clamp: 3; /* Number of lines to display */
+            -webkit-box-orient: vertical;
+          }
+          .card-image-container {
+    height: 200px;
+    overflow: hidden;
+  }
